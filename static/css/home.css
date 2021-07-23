@@ -1,0 +1,155 @@
+@font-face {
+    font-family: Consolas;
+    src: url(../fonts/CONSOLA.TTF);
+}
+
+@font-face {
+    font-family: IBM;
+    src: url(../fonts/IBMPlexMono-Text.ttf);
+}
+
+body {
+    background-color: #091A22;
+    font-family: IBM;
+}
+
+
+nav {
+    height: 10vh;
+    clear: both;
+    display: block;
+}
+
+
+#tag {
+    font-size: 1rem;
+    padding: 5px 5px;
+}
+
+#tag:hover {
+    background-color: black;
+    color: green;
+}
+
+svg {
+    height: 4.5vh;
+    width: 4.5vw;
+    margin-top: 2vh;
+}
+
+#friend {
+    width: 100%;
+    background-color: #2C373D;
+    color: #091A22;
+}
+
+#textarea {
+    overflow-y:scroll;
+    height: 74vh;
+    margin-top: 10vh;
+}
+
+.txtaa {
+    overflow-y: scroll;
+    height: 74vh;
+    margin-top: 10vh
+}
+
+.newUser {
+    text-align: center;
+    font-size: 1em;
+    height: max-content;
+    border-radius: 20px;
+    clear: both;
+    margin: 15px auto;
+    /* height: 10vh; */
+
+    font-weight: 300;
+    display: block;
+}
+
+.newUserP{
+    margin-bottom: 0px;
+    width: fit-content;
+    height: fit-content;
+    padding: 5px 10px;
+    margin: 0px auto;
+    color: white;
+    background-color: #2C373D;
+}
+
+ #type {
+    font-size: 20px;
+    padding: 5px 15px;
+    height: fit-content;
+    border: 2px solid #2C373D;
+    background-color: #091A22;
+    color: white;
+    margin-left: 10px;
+    caret-color: red;
+    width: 90%;
+    float: left;
+    clear: both;
+    position: absolute;
+    bottom: 1px;
+    left: 5px;
+    padding-bottom: 10px;
+    position: fixed;
+    margin-bottom: 10px;
+    font-weight: 300;
+}
+
+
+::placeholder {
+    font-weight: 700;
+}
+
+input:focus {
+    color: red;
+}
+
+.chat {
+    background-color: #2C373D;
+    color: white;
+    width: fit-content;
+    max-width: 80%;
+    padding: 0.4rem 1rem;
+    font-size: 1em;
+    height: max-content;
+    float: left;
+    border-radius: 20px;
+    clear: both;
+    margin-bottom: 10px;
+    /* height: 10vh; */
+    margin-left: 1em;
+    font-weight: 300;
+    display: block;
+
+}
+
+.chat p {
+    margin-bottom: 0px;
+    word-wrap: break-word;
+}
+
+.right {
+    float: right;
+    display: block;
+    margin-right: 1em;
+}
+
+
+
+span {
+    float: right;
+    padding-left: 10px;
+}
+
+nav {
+    margin-bottom: 10%;
+}
+
+
+
+
+

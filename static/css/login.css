@@ -1,0 +1,85 @@
+@font-face {
+    font-family: Consolas;
+    src: url(../fonts/CONSOLA.TTF);
+}
+
+@font-face {
+    font-family: IBM;
+    src: url(../fonts/IBMPlexMono-Text.ttf);
+}
+
+h1 {
+    text-align: center;
+    font-family: IBM;
+    color: white;
+    margin-top: 15%;
+    
+}
+
+body {
+    background-color: #091a22;
+}
+
+input {
+    display: block;
+    font-size: 1.2rem;
+    font-weight: 700;
+    font-family: IBM;
+    padding: 7.5px 5px;
+    width: 20%;
+    margin: 0 40%;
+    margin-top: 10px;
+    background-color: #091a22;
+    border: 3px solid grey;
+    color: grey;
+}
+button {
+    background-color: grey;
+    color:#091a22;
+    padding: 5px;
+    width: 10%;
+    margin: 10px 45%;
+    margin-top: 10px;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: #091a22;
+    color: grey;
+
+}
+
+.ps {
+    width: 100%;
+    text-align: center;
+    font-family: IBM;
+    color: white;
+    font-size: medium;
+    font-weight: 900;
+}
+
+@media (max-width : 500px) {
+    input {
+        width: 75%;
+        margin: 10px 12.5%;
+    }
+
+    h1 {
+        margin-top: 25%;
+    }
+    button {
+        width: 20%;
+        margin: 10px 40%;
+    }
+}
+
+@media (min-width : 501px) and (max-width : 1100px) {
+    input {
+        width: 40%;
+        margin: 10px 30%;
+    }
+    button {
+        width: 20%;
+        margin: 10px 40%;
+    }
+}
