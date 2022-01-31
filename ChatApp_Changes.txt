@@ -1,0 +1,10 @@
+1 . Updated home page div and enabled right side chats 
+
+v2. Updates
+---------------------------------------------
+1 . Auto scrolling to end page when user 
+    sends a message .
+2 . Connect and Disconnect popups
+3 . Rescaling the chat area when the user clicks on input box (Keypad appears) and going back to normal height
+    when he keypad goes back.
+4 . Creating a back button for keypad to disappear .

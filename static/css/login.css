@@ -53,9 +53,11 @@ button:hover {
     width: 100%;
     text-align: center;
     font-family: IBM;
-    color: white;
+    color: #091a22;
     font-size: medium;
     font-weight: 900;
+    background-color: grey;
+    padding: 5px 10px;
 }
 
 @media (max-width : 500px) {
